@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EA3FDF91F0A229900F66544 /* yiwai.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3FDF81F0A229900F66544 /* yiwai.mp4 */; };
+		3EA3FE251F0A33BE00F66544 /* myVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */; };
+		3EE7BD911F0B406300C0174A /* JC_MoviewAMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */; };
+		3EE7BD941F0B6EC800C0174A /* ZYRecordDraftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */; };
+		3EE7BD961F0B8AC300C0174A /* QuartzLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD951F0B8AC300C0174A /* QuartzLines.m */; };
+		3EFF84EF1F064934008BE51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF84EE1F064934008BE51F /* AppDelegate.m */; };
+		3EFF84F21F064934008BE51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF84F11F064934008BE51F /* ViewController.m */; };
+		3EFF84F51F064934008BE51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F31F064934008BE51F /* Main.storyboard */; };
+		3EFF84F71F064934008BE51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F61F064934008BE51F /* Assets.xcassets */; };
+		3EFF84FA1F064934008BE51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F81F064934008BE51F /* LaunchScreen.storyboard */; };
+		3EFF84FD1F064934008BE51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF84FC1F064934008BE51F /* main.m */; };
+		FA71643C2C32845DE891FCED /* libPods-ZYAudioRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EE16A4D5B866A8B71B2E25 /* libPods-ZYAudioRecordDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E998EAD0F173FAA0BB99645 /* Pods-ZYAudioRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYAudioRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYAudioRecordDemo/Pods-ZYAudioRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		25EE16A4D5B866A8B71B2E25 /* libPods-ZYAudioRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYAudioRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3FDF81F0A229900F66544 /* yiwai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwai.mp4; path = ../../../../../yiwai.mp4; sourceTree = "<group>"; };
+		3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = myVideo.mp4; path = "../../../../../../Downloads/音视频合成Demo/音视频合成Demo/myVideo.mp4"; sourceTree = "<group>"; };
+		3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JC_MoviewAMusic.m; path = "../../../../../../Downloads/MusicAndVideo(1)/MusicAndVideo/JC_MoviewAMusic.m"; sourceTree = "<group>"; };
+		3EE7BD901F0B406200C0174A /* JC_MoviewAMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JC_MoviewAMusic.h; path = "../../../../../../Downloads/MusicAndVideo(1)/MusicAndVideo/JC_MoviewAMusic.h"; sourceTree = "<group>"; };
+		3EE7BD921F0B6EC800C0174A /* ZYRecordDraftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRecordDraftView.h; sourceTree = "<group>"; };
+		3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRecordDraftView.m; sourceTree = "<group>"; };
+		3EE7BD951F0B8AC300C0174A /* QuartzLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuartzLines.m; path = ../../../../../QuartzLines.m; sourceTree = "<group>"; };
+		3EE7BD981F0B8CE000C0174A /* QuartzLines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzLines.h; sourceTree = "<group>"; };
+		3EFF84EA1F064934008BE51F /* ZYAudioRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAudioRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFF84ED1F064934008BE51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EFF84EE1F064934008BE51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EFF84F01F064934008BE51F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EFF84F11F064934008BE51F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EFF84F41F064934008BE51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EFF84F61F064934008BE51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EFF84F91F064934008BE51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EFF84FB1F064934008BE51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFF84FC1F064934008BE51F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8789649407C908E5123B750 /* Pods-ZYAudioRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYAudioRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYAudioRecordDemo/Pods-ZYAudioRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EFF84E71F064934008BE51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA71643C2C32845DE891FCED /* libPods-ZYAudioRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EFF84E11F064934008BE51F = {
+			isa = PBXGroup;
+			children = (
+				3EFF84EC1F064934008BE51F /* ZYAudioRecordDemo */,
+				3EFF84EB1F064934008BE51F /* Products */,
+				541D7143A686D66FBD61C15E /* Pods */,
+				CE202826960C341031D503E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EFF84EB1F064934008BE51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EFF84EA1F064934008BE51F /* ZYAudioRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EFF84EC1F064934008BE51F /* ZYAudioRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EFF84ED1F064934008BE51F /* AppDelegate.h */,
+				3EFF84EE1F064934008BE51F /* AppDelegate.m */,
+				3EFF84F01F064934008BE51F /* ViewController.h */,
+				3EFF84F11F064934008BE51F /* ViewController.m */,
+				3EE7BD901F0B406200C0174A /* JC_MoviewAMusic.h */,
+				3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */,
+				3EE7BD921F0B6EC800C0174A /* ZYRecordDraftView.h */,
+				3EE7BD981F0B8CE000C0174A /* QuartzLines.h */,
+				3EE7BD951F0B8AC300C0174A /* QuartzLines.m */,
+				3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */,
+				3EA3FDF81F0A229900F66544 /* yiwai.mp4 */,
+				3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */,
+				3EFF84F31F064934008BE51F /* Main.storyboard */,
+				3EFF84F61F064934008BE51F /* Assets.xcassets */,
+				3EFF84F81F064934008BE51F /* LaunchScreen.storyboard */,
+				3EFF84FB1F064934008BE51F /* Info.plist */,
+				3EFF84FC1F064934008BE51F /* main.m */,
+			);
+			path = ZYAudioRecordDemo;
+			sourceTree = "<group>";
+		};
+		541D7143A686D66FBD61C15E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8789649407C908E5123B750 /* Pods-ZYAudioRecordDemo.debug.xcconfig */,
+				1E998EAD0F173FAA0BB99645 /* Pods-ZYAudioRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE202826960C341031D503E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25EE16A4D5B866A8B71B2E25 /* libPods-ZYAudioRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EFF84E91F064934008BE51F /* ZYAudioRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EFF85001F064934008BE51F /* Build configuration list for PBXNativeTarget "ZYAudioRecordDemo" */;
+			buildPhases = (
+				8C12C8E235F9AA7C57D17DD3 /* [CP] Check Pods Manifest.lock */,
+				3EFF84E61F064934008BE51F /* Sources */,
+				3EFF84E71F064934008BE51F /* Frameworks */,
+				3EFF84E81F064934008BE51F /* Resources */,
+				D4A125387503075264DE37BB /* [CP] Embed Pods Frameworks */,
+				DFF7FBDF52BFE13E9BA22DB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAudioRecordDemo;
+			productName = ZYAudioRecordDemo;
+			productReference = 3EFF84EA1F064934008BE51F /* ZYAudioRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EFF84E21F064934008BE51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wpsd;
+				TargetAttributes = {
+					3EFF84E91F064934008BE51F = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 3EFF84E51F064934008BE51F /* Build configuration list for PBXProject "ZYAudioRecordDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EFF84E11F064934008BE51F;
+			productRefGroup = 3EFF84EB1F064934008BE51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EFF84E91F064934008BE51F /* ZYAudioRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EFF84E81F064934008BE51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3FE251F0A33BE00F66544 /* myVideo.mp4 in Resources */,
+				3EFF84FA1F064934008BE51F /* LaunchScreen.storyboard in Resources */,
+				3EFF84F71F064934008BE51F /* Assets.xcassets in Resources */,
+				3EFF84F51F064934008BE51F /* Main.storyboard in Resources */,
+				3EA3FDF91F0A229900F66544 /* yiwai.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C12C8E235F9AA7C57D17DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A125387503075264DE37BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYAudioRecordDemo/Pods-ZYAudioRecordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF7FBDF52BFE13E9BA22DB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYAudioRecordDemo/Pods-ZYAudioRecordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EFF84E61F064934008BE51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFF84F21F064934008BE51F /* ViewController.m in Sources */,
+				3EE7BD911F0B406300C0174A /* JC_MoviewAMusic.m in Sources */,
+				3EFF84FD1F064934008BE51F /* main.m in Sources */,
+				3EFF84EF1F064934008BE51F /* AppDelegate.m in Sources */,
+				3EE7BD961F0B8AC300C0174A /* QuartzLines.m in Sources */,
+				3EE7BD941F0B6EC800C0174A /* ZYRecordDraftView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EFF84F31F064934008BE51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EFF84F41F064934008BE51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EFF84F81F064934008BE51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EFF84F91F064934008BE51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EFF84FE1F064934008BE51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EFF84FF1F064934008BE51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EFF85011F064934008BE51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8789649407C908E5123B750 /* Pods-ZYAudioRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X46N782Q77;
+				INFOPLIST_FILE = ZYAudioRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wpsd.ZYAudioRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EFF85021F064934008BE51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E998EAD0F173FAA0BB99645 /* Pods-ZYAudioRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X46N782Q77;
+				INFOPLIST_FILE = ZYAudioRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wpsd.ZYAudioRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EFF84E51F064934008BE51F /* Build configuration list for PBXProject "ZYAudioRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFF84FE1F064934008BE51F /* Debug */,
+				3EFF84FF1F064934008BE51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EFF85001F064934008BE51F /* Build configuration list for PBXNativeTarget "ZYAudioRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFF85011F064934008BE51F /* Debug */,
+				3EFF85021F064934008BE51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EFF84E21F064934008BE51F /* Project object */;
+}
