@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ZYViewController.h
 //  ZYAudioRecordDemo
 //
-//  Created by wpsd on 2017/6/30.
+//  Created by wpsd on 2017/7/5.
 //  Copyright © 2017年 wpsd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZYViewController : UIViewController
 
 @end
-

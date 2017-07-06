@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1D2D671F0CB9230084B8A2 /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D2D661F0CB9230084B8A2 /* ZYViewController.m */; };
 		3EA3FDF91F0A229900F66544 /* yiwai.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3FDF81F0A229900F66544 /* yiwai.mp4 */; };
 		3EA3FE251F0A33BE00F66544 /* myVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */; };
+		3EBDDABF1F0DE1CA00C74A4D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDDABE1F0DE1C900C74A4D /* UIView+Frame.m */; };
 		3EE7BD911F0B406300C0174A /* JC_MoviewAMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */; };
-		3EE7BD941F0B6EC800C0174A /* ZYRecordDraftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */; };
-		3EE7BD961F0B8AC300C0174A /* QuartzLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BD951F0B8AC300C0174A /* QuartzLines.m */; };
 		3EFF84EF1F064934008BE51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF84EE1F064934008BE51F /* AppDelegate.m */; };
-		3EFF84F21F064934008BE51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF84F11F064934008BE51F /* ViewController.m */; };
 		3EFF84F51F064934008BE51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F31F064934008BE51F /* Main.storyboard */; };
 		3EFF84F71F064934008BE51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F61F064934008BE51F /* Assets.xcassets */; };
 		3EFF84FA1F064934008BE51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF84F81F064934008BE51F /* LaunchScreen.storyboard */; };
@@ -24,19 +23,17 @@
 /* Begin PBXFileReference section */
 		1E998EAD0F173FAA0BB99645 /* Pods-ZYAudioRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYAudioRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYAudioRecordDemo/Pods-ZYAudioRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
 		25EE16A4D5B866A8B71B2E25 /* libPods-ZYAudioRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYAudioRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1D2D651F0CB9230084B8A2 /* ZYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewController.h; sourceTree = "<group>"; };
+		3E1D2D661F0CB9230084B8A2 /* ZYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewController.m; sourceTree = "<group>"; };
 		3EA3FDF81F0A229900F66544 /* yiwai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = yiwai.mp4; path = ../../../../../yiwai.mp4; sourceTree = "<group>"; };
 		3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = myVideo.mp4; path = "../../../../../../Downloads/音视频合成Demo/音视频合成Demo/myVideo.mp4"; sourceTree = "<group>"; };
+		3EBDDABD1F0DE1C800C74A4D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../../../../../工作/项目/xing_zuo_iOS/NewZodiac/NewZodiac/Expand/Category/UIView/UIView+Frame.h"; sourceTree = "<group>"; };
+		3EBDDABE1F0DE1C900C74A4D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../../../../../工作/项目/xing_zuo_iOS/NewZodiac/NewZodiac/Expand/Category/UIView/UIView+Frame.m"; sourceTree = "<group>"; };
 		3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JC_MoviewAMusic.m; path = "../../../../../../Downloads/MusicAndVideo(1)/MusicAndVideo/JC_MoviewAMusic.m"; sourceTree = "<group>"; };
 		3EE7BD901F0B406200C0174A /* JC_MoviewAMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JC_MoviewAMusic.h; path = "../../../../../../Downloads/MusicAndVideo(1)/MusicAndVideo/JC_MoviewAMusic.h"; sourceTree = "<group>"; };
-		3EE7BD921F0B6EC800C0174A /* ZYRecordDraftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRecordDraftView.h; sourceTree = "<group>"; };
-		3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRecordDraftView.m; sourceTree = "<group>"; };
-		3EE7BD951F0B8AC300C0174A /* QuartzLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuartzLines.m; path = ../../../../../QuartzLines.m; sourceTree = "<group>"; };
-		3EE7BD981F0B8CE000C0174A /* QuartzLines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzLines.h; sourceTree = "<group>"; };
 		3EFF84EA1F064934008BE51F /* ZYAudioRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAudioRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFF84ED1F064934008BE51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EFF84EE1F064934008BE51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EFF84F01F064934008BE51F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EFF84F11F064934008BE51F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EFF84F41F064934008BE51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EFF84F61F064934008BE51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFF84F91F064934008BE51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,14 +77,12 @@
 			children = (
 				3EFF84ED1F064934008BE51F /* AppDelegate.h */,
 				3EFF84EE1F064934008BE51F /* AppDelegate.m */,
-				3EFF84F01F064934008BE51F /* ViewController.h */,
-				3EFF84F11F064934008BE51F /* ViewController.m */,
+				3E1D2D651F0CB9230084B8A2 /* ZYViewController.h */,
+				3E1D2D661F0CB9230084B8A2 /* ZYViewController.m */,
 				3EE7BD901F0B406200C0174A /* JC_MoviewAMusic.h */,
 				3EE7BD8F1F0B406200C0174A /* JC_MoviewAMusic.m */,
-				3EE7BD921F0B6EC800C0174A /* ZYRecordDraftView.h */,
-				3EE7BD981F0B8CE000C0174A /* QuartzLines.h */,
-				3EE7BD951F0B8AC300C0174A /* QuartzLines.m */,
-				3EE7BD931F0B6EC800C0174A /* ZYRecordDraftView.m */,
+				3EBDDABD1F0DE1C800C74A4D /* UIView+Frame.h */,
+				3EBDDABE1F0DE1C900C74A4D /* UIView+Frame.m */,
 				3EA3FDF81F0A229900F66544 /* yiwai.mp4 */,
 				3EA3FE241F0A33BE00F66544 /* myVideo.mp4 */,
 				3EFF84F31F064934008BE51F /* Main.storyboard */,
@@ -240,12 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFF84F21F064934008BE51F /* ViewController.m in Sources */,
 				3EE7BD911F0B406300C0174A /* JC_MoviewAMusic.m in Sources */,
 				3EFF84FD1F064934008BE51F /* main.m in Sources */,
 				3EFF84EF1F064934008BE51F /* AppDelegate.m in Sources */,
-				3EE7BD961F0B8AC300C0174A /* QuartzLines.m in Sources */,
-				3EE7BD941F0B6EC800C0174A /* ZYRecordDraftView.m in Sources */,
+				3EBDDABF1F0DE1CA00C74A4D /* UIView+Frame.m in Sources */,
+				3E1D2D671F0CB9230084B8A2 /* ZYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
